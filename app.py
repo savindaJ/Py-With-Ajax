@@ -12,7 +12,7 @@ def index():
     return render_template('index.html')
 
 
-@app.route('/test', methods=['POST'])
+@app.route('/save', methods=['POST'])
 def test_post():
     if request.method == 'POST':
         id = request.form['cusId']

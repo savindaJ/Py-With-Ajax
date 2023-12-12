@@ -1,6 +1,6 @@
 $('#btnSave').on('click',function () {
     $.ajax({
-        url:"/test",
+        url:"/save",
         type:"POST",
         data:{
             cusId: $('#cusId').val(),
